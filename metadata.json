@@ -1,0 +1,6 @@
+{
+  "name": "SmartCity AI",
+  "description": "AI-Powered Urban Intelligence & City Management Platform for proactive municipal monitoring, predictive traffic, CV waste & road inspection, and citizen governance.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

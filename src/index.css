@@ -1,0 +1,108 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@import "leaflet/dist/leaflet.css";
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', system-ui, sans-serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #070D18;
+    color: #F4F7FC;
+  }
+
+  html:not(.dark) body {
+    background-color: #F3F6FA;
+    color: #0F172A;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono, .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Custom sleek scrollbars for dark command center */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(130, 170, 210, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 200, 255, 0.4);
+}
+
+/* Leaflet dark theme overrides */
+.leaflet-container {
+  background: #070D18 !important;
+  font-family: var(--font-sans) !important;
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: #101D2D !important;
+  color: #F4F7FC !important;
+  border: 1px solid rgba(130, 170, 210, 0.2);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55) !important;
+}
+.leaflet-control-zoom a {
+  background-color: #101D2D !important;
+  color: #F4F7FC !important;
+  border-color: rgba(130, 170, 210, 0.2) !important;
+}
+.leaflet-control-zoom a:hover {
+  background-color: #14243A !important;
+  color: #00C8FF !important;
+}
+.leaflet-control-attribution {
+  background: rgba(7, 13, 24, 0.78) !important;
+  color: #91A2B8 !important;
+  font-size: 10px !important;
+}
+.leaflet-control-attribution a {
+  color: #00C8FF !important;
+}
+.smartcity-satellite-tiles {
+  filter: brightness(0.86) contrast(1.08) saturate(1.08);
+}
+
+@keyframes smartcity-pulse {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.85;
+  }
+  70% {
+    transform: scale(1.65);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1.65);
+    opacity: 0;
+  }
+}
+
+.marker-pulse-ring {
+  animation: smartcity-pulse 2.2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+@media print {
+  aside, header, .no-print {
+    display: none !important;
+  }
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+}
