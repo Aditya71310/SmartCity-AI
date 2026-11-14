@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { FunctionDeclaration, GoogleGenAI, ThinkingLevel, Type } from '@google/genai';
+import { GoogleGenAI, ThinkingLevel, Type } from '@google/genai';
+import type { FunctionDeclaration } from '@google/genai';
 import type {
   CopilotMessage,
   DetectionBox,
