@@ -1,0 +1,1878 @@
+{
+  "users": [
+    {
+      "id": "usr-super-1",
+      "fullName": "Aditya Lulla",
+      "email": "admin@smartcity.gov.in",
+      "role": "Super Admin",
+      "organisation": "Brihanmumbai Municipal Corporation (BMC)",
+      "designation": "Chief Urban Intelligence Officer",
+      "departmentId": "dept-swm",
+      "avatarUrl": "/src/assets/images/admin_avatar_portrait_1794656029576.jpg",
+      "active": true,
+      "emailVerified": true,
+      "notificationPrefs": {
+        "highPriority": true,
+        "citizenReports": true,
+        "environmentAlerts": true,
+        "taskUpdates": true
+      },
+      "createdAt": "2026-10-15T11:44:49.757Z",
+      "passwordHash": "38fbb98a6875a70ab0da87d6d59b4931:c199b0f827da8258d127a5d118424750dc4a85f52a2f2b1789ac9f1b6334b6c98b31ea62473fdd52fcb93523c5311f4dccb5fd358e48e5acf283e0b766e6c855"
+    },
+    {
+      "id": "usr-muni-2",
+      "fullName": "Meera Deshmukh",
+      "email": "commissioner@smartcity.gov.in",
+      "role": "Municipal Administrator",
+      "organisation": "Brihanmumbai Municipal Corporation (BMC)",
+      "designation": "Deputy Municipal Commissioner (Smart Ops)",
+      "active": true,
+      "emailVerified": true,
+      "notificationPrefs": {
+        "highPriority": true,
+        "citizenReports": true,
+        "environmentAlerts": true,
+        "taskUpdates": false
+      },
+      "createdAt": "2026-10-19T15:44:49.757Z",
+      "passwordHash": "38fbb98a6875a70ab0da87d6d59b4931:c199b0f827da8258d127a5d118424750dc4a85f52a2f2b1789ac9f1b6334b6c98b31ea62473fdd52fcb93523c5311f4dccb5fd358e48e5acf283e0b766e6c855"
+    },
+    {
+      "id": "usr-dept-3",
+      "fullName": "Rohan Kulkarni",
+      "email": "roads.officer@smartcity.gov.in",
+      "role": "Department Officer",
+      "organisation": "Brihanmumbai Municipal Corporation (BMC)",
+      "designation": "Executive Engineer — Roads & Infrastructure",
+      "departmentId": "dept-roads",
+      "active": true,
+      "emailVerified": true,
+      "notificationPrefs": {
+        "highPriority": true,
+        "citizenReports": true,
+        "environmentAlerts": false,
+        "taskUpdates": true
+      },
+      "createdAt": "2026-10-24T15:44:49.757Z",
+      "passwordHash": "38fbb98a6875a70ab0da87d6d59b4931:c199b0f827da8258d127a5d118424750dc4a85f52a2f2b1789ac9f1b6334b6c98b31ea62473fdd52fcb93523c5311f4dccb5fd358e48e5acf283e0b766e6c855"
+    },
+    {
+      "id": "usr-field-4",
+      "fullName": "Vikram Sawant",
+      "email": "field.squad@smartcity.gov.in",
+      "role": "Field Officer",
+      "organisation": "BMC Ward K-East Operations",
+      "designation": "Senior Field Response Inspector",
+      "departmentId": "dept-swm",
+      "active": true,
+      "emailVerified": true,
+      "notificationPrefs": {
+        "highPriority": true,
+        "citizenReports": false,
+        "environmentAlerts": false,
+        "taskUpdates": true
+      },
+      "createdAt": "2026-10-29T15:44:49.757Z",
+      "passwordHash": "38fbb98a6875a70ab0da87d6d59b4931:c199b0f827da8258d127a5d118424750dc4a85f52a2f2b1789ac9f1b6334b6c98b31ea62473fdd52fcb93523c5311f4dccb5fd358e48e5acf283e0b766e6c855"
+    },
+    {
+      "id": "usr-citizen-5",
+      "fullName": "Ananya Sharma",
+      "email": "citizen@mumbai.in",
+      "role": "Citizen",
+      "organisation": "Mumbai Civic Resident",
+      "designation": "Bandra West Ward H-West",
+      "active": true,
+      "emailVerified": true,
+      "notificationPrefs": {
+        "highPriority": false,
+        "citizenReports": true,
+        "environmentAlerts": true,
+        "taskUpdates": true
+      },
+      "createdAt": "2026-11-06T13:44:49.757Z",
+      "passwordHash": "38fbb98a6875a70ab0da87d6d59b4931:c199b0f827da8258d127a5d118424750dc4a85f52a2f2b1789ac9f1b6334b6c98b31ea62473fdd52fcb93523c5311f4dccb5fd358e48e5acf283e0b766e6c855"
+    }
+  ],
+  "organisations": [
+    {
+      "id": "org-bmc",
+      "name": "Brihanmumbai Municipal Corporation (BMC)",
+      "code": "BMC-MUM",
+      "city": "Mumbai",
+      "jurisdiction": "Greater Mumbai (24 Wards)"
+    },
+    {
+      "id": "org-mmrda",
+      "name": "Mumbai Metropolitan Region Development Authority",
+      "code": "MMRDA",
+      "city": "Mumbai",
+      "jurisdiction": "Expressways, Metro Corridors & Regional Planning"
+    },
+    {
+      "id": "org-mtp",
+      "name": "Mumbai Traffic Police & Smart Mobility",
+      "code": "MTP-CTRL",
+      "city": "Mumbai",
+      "jurisdiction": "Arterial Traffic Management & Incident Response"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept-swm",
+      "name": "Solid Waste Management",
+      "code": "SWM",
+      "headOfficer": "Dr. S. Patwardhan",
+      "slaHours": 6,
+      "activeCrewCount": 48,
+      "efficiencyScore": 91
+    },
+    {
+      "id": "dept-traffic",
+      "name": "Traffic Control & Mobility",
+      "code": "TCM",
+      "headOfficer": "DCP R. Menon",
+      "slaHours": 2,
+      "activeCrewCount": 34,
+      "efficiencyScore": 86
+    },
+    {
+      "id": "dept-env",
+      "name": "Environment & Air Quality",
+      "code": "EAQ",
+      "headOfficer": "Dr. K. Nair",
+      "slaHours": 12,
+      "activeCrewCount": 16,
+      "efficiencyScore": 94
+    },
+    {
+      "id": "dept-roads",
+      "name": "Roads & Bridges Maintenance",
+      "code": "RBM",
+      "headOfficer": "Er. Rohan Kulkarni",
+      "slaHours": 24,
+      "activeCrewCount": 42,
+      "efficiencyScore": 83
+    },
+    {
+      "id": "dept-drain",
+      "name": "Storm Water Drains",
+      "code": "SWD",
+      "headOfficer": "Er. P. Gokhale",
+      "slaHours": 8,
+      "activeCrewCount": 28,
+      "efficiencyScore": 89
+    },
+    {
+      "id": "dept-light",
+      "name": "Street Lighting & Electrical",
+      "code": "SLE",
+      "headOfficer": "Er. N. Joshi",
+      "slaHours": 18,
+      "activeCrewCount": 22,
+      "efficiencyScore": 95
+    }
+  ],
+  "incidents": [
+    {
+      "id": "inc-101",
+      "code": "INC-MUM-101",
+      "title": "Overflowing mixed plastic & solid waste pile near Andheri Station East",
+      "description": "AI camera at Sahar Road Junction detected 380kg+ illegal curb-side dumping obstructing pedestrian walkway.",
+      "category": "Waste",
+      "severity": "High",
+      "status": "Assigned",
+      "ward": "K-East (Andheri E)",
+      "locationName": "Sahar Road Junction, Andheri East",
+      "lat": 19.1197,
+      "lng": 72.8464,
+      "departmentId": "dept-swm",
+      "departmentName": "Solid Waste Management",
+      "assignedTo": "Sanitation Squad Alpha-4",
+      "detectedAt": "2026-11-14T11:16:49.757Z",
+      "updatedAt": "2026-11-14T11:32:49.757Z",
+      "source": "AI Vision",
+      "isSimulated": true,
+      "confidence": 96
+    },
+    {
+      "id": "inc-102",
+      "code": "INC-MUM-102",
+      "title": "Severe multi-lane bottleneck at Western Express Highway Vile Parle",
+      "description": "Traffic ML corridor monitor flagged 88% density and slow speed (14 km/h) southbound towards Bandra.",
+      "category": "Traffic",
+      "severity": "Critical",
+      "status": "In Progress",
+      "ward": "K-East (Vile Parle)",
+      "locationName": "WEH Flyover Southbound, Vile Parle",
+      "lat": 19.0996,
+      "lng": 72.8535,
+      "departmentId": "dept-traffic",
+      "departmentName": "Traffic Control & Mobility",
+      "assignedTo": "Highway Patrol Unit 09",
+      "detectedAt": "2026-11-14T11:25:49.757Z",
+      "updatedAt": "2026-11-14T11:38:49.757Z",
+      "source": "Traffic ML",
+      "isSimulated": true,
+      "confidence": 94
+    },
+    {
+      "id": "inc-103",
+      "code": "INC-MUM-103",
+      "title": "Deep arterial pothole cluster on Sion-Dharavi Link Road",
+      "description": "Road inspection CV detected a 1.4m water-logged pothole impacting heavy bus and ambulance lane.",
+      "category": "Infrastructure",
+      "severity": "Critical",
+      "status": "Open",
+      "ward": "F-North (Sion)",
+      "locationName": "Sion - Link Road Intersection",
+      "lat": 19.0434,
+      "lng": 72.8617,
+      "departmentId": "dept-roads",
+      "departmentName": "Roads & Bridges Maintenance",
+      "detectedAt": "2026-11-14T11:00:49.757Z",
+      "updatedAt": "2026-11-14T11:00:49.757Z",
+      "source": "AI Vision",
+      "isSimulated": true,
+      "confidence": 97
+    },
+    {
+      "id": "inc-104",
+      "code": "INC-MUM-104",
+      "title": "PM10 & PM2.5 threshold spike at Chembur Industrial Corridor",
+      "description": "Environmental sensor station MUM-ENV-06 recorded AQI 158 (Moderate-Poor) with PM10 at 142 µg/m³.",
+      "category": "Environment",
+      "severity": "High",
+      "status": "In Progress",
+      "ward": "M-West (Chembur)",
+      "locationName": "RCF Marg Monitoring Station, Chembur",
+      "lat": 19.0522,
+      "lng": 72.9005,
+      "departmentId": "dept-env",
+      "departmentName": "Environment & Air Quality",
+      "assignedTo": "Env Compliance Team 02",
+      "detectedAt": "2026-11-14T09:44:49.757Z",
+      "updatedAt": "2026-11-14T11:09:49.757Z",
+      "source": "IoT Sensor",
+      "isSimulated": true
+    },
+    {
+      "id": "inc-105",
+      "code": "INC-MUM-105",
+      "title": "Stormwater drain silt blockage near Hindmata Junction",
+      "description": "Citizen report & sensor pressure anomaly indicate blocked culvert risk ahead of evening high tide.",
+      "category": "Drainage",
+      "severity": "High",
+      "status": "Assigned",
+      "ward": "F-South (Dadar)",
+      "locationName": "Dr. Babasaheb Ambedkar Rd, Hindmata",
+      "lat": 19.0096,
+      "lng": 72.8421,
+      "departmentId": "dept-drain",
+      "departmentName": "Storm Water Drains",
+      "assignedTo": "De-silting Crew F-03",
+      "detectedAt": "2026-11-14T08:44:49.757Z",
+      "updatedAt": "2026-11-14T10:44:49.757Z",
+      "source": "Citizen Report",
+      "isSimulated": true
+    },
+    {
+      "id": "inc-106",
+      "code": "INC-MUM-106",
+      "title": "Streetlight outage cluster along Link Road Andheri West",
+      "description": "Six consecutive LED poles offline between Lokhandwala Circle and Infinity Mall.",
+      "category": "Streetlights",
+      "severity": "Medium",
+      "status": "In Progress",
+      "ward": "K-West (Andheri W)",
+      "locationName": "New Link Road, Andheri West",
+      "lat": 19.1363,
+      "lng": 72.8277,
+      "departmentId": "dept-light",
+      "departmentName": "Street Lighting & Electrical",
+      "assignedTo": "Electrical Van E-11",
+      "detectedAt": "2026-11-14T07:44:49.757Z",
+      "updatedAt": "2026-11-14T10:44:49.757Z",
+      "source": "Citizen Report",
+      "isSimulated": true
+    },
+    {
+      "id": "inc-107",
+      "code": "INC-MUM-107",
+      "title": "Illegal commercial waste dumping along Bandra Reclamation promenade",
+      "description": "Late-night dumping of packaging & organic market waste identified near Sea Link approach.",
+      "category": "Waste",
+      "severity": "Medium",
+      "status": "Resolved",
+      "ward": "H-West (Bandra W)",
+      "locationName": "Bandra Reclamation Promenade",
+      "lat": 19.0487,
+      "lng": 72.8206,
+      "departmentId": "dept-swm",
+      "departmentName": "Solid Waste Management",
+      "assignedTo": "Sanitation Squad H-02",
+      "detectedAt": "2026-11-13T21:44:49.757Z",
+      "updatedAt": "2026-11-14T06:44:49.757Z",
+      "source": "Citizen Report",
+      "isSimulated": true,
+      "confidence": 92
+    },
+    {
+      "id": "inc-108",
+      "code": "INC-MUM-108",
+      "title": "Water pipeline joint seepage on Hill Road, Bandra West",
+      "description": "Minor pressure drop and surface seepage reported near Mehboob Studio crossing.",
+      "category": "Water",
+      "severity": "Medium",
+      "status": "Resolved",
+      "ward": "H-West (Bandra W)",
+      "locationName": "Hill Road Crossing, Bandra West",
+      "lat": 19.0558,
+      "lng": 72.8286,
+      "departmentId": "dept-drain",
+      "departmentName": "Storm Water Drains",
+      "assignedTo": "Hydraulic Crew W-04",
+      "detectedAt": "2026-11-13T13:44:49.757Z",
+      "updatedAt": "2026-11-14T03:44:49.757Z",
+      "source": "Field Inspection",
+      "isSimulated": true
+    },
+    {
+      "id": "inc-109",
+      "code": "INC-MUM-109",
+      "title": "Asphalt surface cracking at Powai Vihar Main Gate",
+      "description": "Longitudinal road cracks spanning 4.2m detected during routine mobile dashcam scan.",
+      "category": "Infrastructure",
+      "severity": "Medium",
+      "status": "Assigned",
+      "ward": "S-Ward (Powai)",
+      "locationName": "Adi Shankaracharya Marg, Powai",
+      "lat": 19.1235,
+      "lng": 72.9059,
+      "departmentId": "dept-roads",
+      "departmentName": "Roads & Bridges Maintenance",
+      "assignedTo": "Resurfacing Crew S-01",
+      "detectedAt": "2026-11-14T02:44:49.757Z",
+      "updatedAt": "2026-11-14T08:44:49.757Z",
+      "source": "AI Vision",
+      "isSimulated": true,
+      "confidence": 91
+    },
+    {
+      "id": "inc-110",
+      "code": "INC-MUM-110",
+      "title": "Bandra-Kurla Complex (BKC) evening exit congestion buildup",
+      "description": "Predictive traffic model indicates 79% peak congestion near MMRDA Grounds exit ramp.",
+      "category": "Traffic",
+      "severity": "High",
+      "status": "Open",
+      "ward": "H-East (BKC)",
+      "locationName": "G Block BKC Exit Ramp",
+      "lat": 19.0653,
+      "lng": 72.8681,
+      "departmentId": "dept-traffic",
+      "departmentName": "Traffic Control & Mobility",
+      "detectedAt": "2026-11-14T10:52:49.757Z",
+      "updatedAt": "2026-11-14T10:52:49.757Z",
+      "source": "Traffic ML",
+      "isSimulated": true
+    },
+    {
+      "id": "inc-111",
+      "code": "INC-MUM-111",
+      "title": "Acoustic noise limit exceedance near Dadar TT Circle",
+      "description": "Peak traffic horn decibel level reached 84 dB exceeding commercial zone nighttime limit.",
+      "category": "Environment",
+      "severity": "Low",
+      "status": "Resolved",
+      "ward": "F-North (Dadar)",
+      "locationName": "Dadar TT Circle Sensor Node",
+      "lat": 19.0176,
+      "lng": 72.8478,
+      "departmentId": "dept-env",
+      "departmentName": "Environment & Air Quality",
+      "assignedTo": "Env Compliance Team 01",
+      "detectedAt": "2026-11-13T17:44:49.757Z",
+      "updatedAt": "2026-11-14T00:44:49.757Z",
+      "source": "IoT Sensor",
+      "isSimulated": true
+    },
+    {
+      "id": "inc-112",
+      "code": "INC-MUM-112",
+      "title": "Market organic waste accumulation at Crawford Market perimeter",
+      "description": "High volume biodegradable refuse awaiting afternoon compactor sweep.",
+      "category": "Waste",
+      "severity": "High",
+      "status": "In Progress",
+      "ward": "A-Ward (Fort)",
+      "locationName": "Lokmanya Tilak Marg, Crawford Market",
+      "lat": 18.9475,
+      "lng": 72.8339,
+      "departmentId": "dept-swm",
+      "departmentName": "Solid Waste Management",
+      "assignedTo": "Compactor Unit A-07",
+      "detectedAt": "2026-11-14T09:44:49.757Z",
+      "updatedAt": "2026-11-14T11:19:49.757Z",
+      "source": "AI Vision",
+      "isSimulated": true,
+      "confidence": 94
+    }
+  ],
+  "wasteDetections": [
+    {
+      "id": "wst-1",
+      "code": "WST-2026-041",
+      "imageUrl": "/src/assets/images/waste_detection_sample_1794656029090.jpg",
+      "locationName": "Sahar Road Junction, Andheri East",
+      "ward": "K-East (Andheri E)",
+      "lat": 19.1197,
+      "lng": 72.8464,
+      "detectedCategories": [
+        {
+          "category": "Mixed Garbage",
+          "confidence": 96,
+          "percentage": 52
+        },
+        {
+          "category": "Plastic",
+          "confidence": 93,
+          "percentage": 34
+        },
+        {
+          "category": "Organic Waste",
+          "confidence": 86,
+          "percentage": 14
+        }
+      ],
+      "boxes": [
+        {
+          "label": "Mixed Garbage Pile",
+          "confidence": 96,
+          "ymin": 380,
+          "xmin": 140,
+          "ymax": 770,
+          "xmax": 780,
+          "category": "Mixed Garbage"
+        },
+        {
+          "label": "Plastic Bags Cluster",
+          "confidence": 93,
+          "ymin": 460,
+          "xmin": 260,
+          "ymax": 720,
+          "xmax": 610,
+          "category": "Plastic"
+        }
+      ],
+      "severity": "High",
+      "estimatedVolumeKg": 385,
+      "status": "Task Assigned",
+      "analysisMode": "Demonstration CV Mode",
+      "detectedAt": "2026-11-14T11:16:49.757Z",
+      "isSimulated": true
+    },
+    {
+      "id": "wst-2",
+      "code": "WST-2026-040",
+      "imageUrl": "/src/assets/images/waste_detection_sample_1794656029090.jpg",
+      "locationName": "Lokmanya Tilak Marg, Crawford Market",
+      "ward": "A-Ward (Fort)",
+      "lat": 18.9475,
+      "lng": 72.8339,
+      "detectedCategories": [
+        {
+          "category": "Organic Waste",
+          "confidence": 94,
+          "percentage": 64
+        },
+        {
+          "category": "Paper",
+          "confidence": 88,
+          "percentage": 22
+        },
+        {
+          "category": "Plastic",
+          "confidence": 82,
+          "percentage": 14
+        }
+      ],
+      "boxes": [
+        {
+          "label": "Organic Produce Refuse",
+          "confidence": 94,
+          "ymin": 410,
+          "xmin": 180,
+          "ymax": 790,
+          "xmax": 740,
+          "category": "Organic Waste"
+        }
+      ],
+      "severity": "High",
+      "estimatedVolumeKg": 490,
+      "status": "In Progress",
+      "analysisMode": "Demonstration CV Mode",
+      "detectedAt": "2026-11-14T09:44:49.757Z",
+      "isSimulated": true
+    },
+    {
+      "id": "wst-3",
+      "code": "WST-2026-039",
+      "imageUrl": "/src/assets/images/waste_detection_sample_1794656029090.jpg",
+      "locationName": "Bandra Reclamation Promenade",
+      "ward": "H-West (Bandra W)",
+      "lat": 19.0487,
+      "lng": 72.8206,
+      "detectedCategories": [
+        {
+          "category": "Illegal Dumping",
+          "confidence": 91,
+          "percentage": 55
+        },
+        {
+          "category": "Plastic",
+          "confidence": 89,
+          "percentage": 30
+        },
+        {
+          "category": "Metal",
+          "confidence": 76,
+          "percentage": 15
+        }
+      ],
+      "boxes": [
+        {
+          "label": "Illegal Dumping Heap",
+          "confidence": 91,
+          "ymin": 400,
+          "xmin": 160,
+          "ymax": 760,
+          "xmax": 760,
+          "category": "Illegal Dumping"
+        }
+      ],
+      "severity": "Medium",
+      "estimatedVolumeKg": 210,
+      "status": "Collected",
+      "analysisMode": "Demonstration CV Mode",
+      "detectedAt": "2026-11-13T21:44:49.757Z",
+      "isSimulated": true
+    },
+    {
+      "id": "wst-4",
+      "code": "WST-2026-038",
+      "imageUrl": "/src/assets/images/waste_detection_sample_1794656029090.jpg",
+      "locationName": "LBS Marg Depot Perimeter, Kurla West",
+      "ward": "L-Ward (Kurla)",
+      "lat": 19.0726,
+      "lng": 72.8845,
+      "detectedCategories": [
+        {
+          "category": "Mixed Garbage",
+          "confidence": 90,
+          "percentage": 60
+        },
+        {
+          "category": "Paper",
+          "confidence": 84,
+          "percentage": 25
+        },
+        {
+          "category": "Plastic",
+          "confidence": 81,
+          "percentage": 15
+        }
+      ],
+      "boxes": [
+        {
+          "label": "Uncollected Curb Waste",
+          "confidence": 90,
+          "ymin": 395,
+          "xmin": 155,
+          "ymax": 760,
+          "xmax": 770,
+          "category": "Mixed Garbage"
+        }
+      ],
+      "severity": "Critical",
+      "estimatedVolumeKg": 620,
+      "status": "Detected",
+      "analysisMode": "Demonstration CV Mode",
+      "detectedAt": "2026-11-14T10:44:49.757Z",
+      "isSimulated": true
+    }
+  ],
+  "wasteTasks": [
+    {
+      "id": "wt-1",
+      "code": "SWM-TSK-904",
+      "detectionId": "wst-1",
+      "locationName": "Sahar Road Junction, Andheri East",
+      "ward": "K-East (Andheri E)",
+      "teamName": "Sanitation Squad Alpha-4",
+      "vehicleId": "MH-01-CV-4412",
+      "priority": "High",
+      "status": "Dispatched",
+      "assignedAt": "2026-11-14T11:29:49.757Z",
+      "notes": "Compactor dispatched from Andheri K-East transfer station."
+    },
+    {
+      "id": "wt-2",
+      "code": "SWM-TSK-903",
+      "detectionId": "wst-2",
+      "locationName": "Lokmanya Tilak Marg, Crawford Market",
+      "ward": "A-Ward (Fort)",
+      "teamName": "Compactor Unit A-07",
+      "vehicleId": "MH-01-CV-1188",
+      "priority": "High",
+      "status": "Dispatched",
+      "assignedAt": "2026-11-14T10:44:49.757Z",
+      "notes": "Priority market clearance before evening rush."
+    },
+    {
+      "id": "wt-3",
+      "code": "SWM-TSK-901",
+      "detectionId": "wst-3",
+      "locationName": "Bandra Reclamation Promenade",
+      "ward": "H-West (Bandra W)",
+      "teamName": "Sanitation Squad H-02",
+      "vehicleId": "MH-02-CV-3309",
+      "priority": "Medium",
+      "status": "Verified",
+      "assignedAt": "2026-11-13T23:44:49.757Z",
+      "completedAt": "2026-11-14T06:44:49.757Z",
+      "notes": "Cleared 210 kg debris; site sanitized and verified by ward supervisor."
+    }
+  ],
+  "trafficCorridors": [
+    {
+      "id": "trf-weh",
+      "name": "Western Express Highway (Andheri – Bandra)",
+      "shortName": "WEH Southbound",
+      "ward": "K-East / H-East",
+      "lengthKm": 9.4,
+      "lanes": 6,
+      "currentDensity": 174,
+      "congestionPct": 84,
+      "avgSpeedKmph": 15,
+      "expectedTravelMin": 38,
+      "freeFlowTravelMin": 11,
+      "status": "Severe",
+      "coordinates": [
+        [
+          19.1242,
+          72.8528
+        ],
+        [
+          19.1078,
+          72.8541
+        ],
+        [
+          19.0912,
+          72.8522
+        ],
+        [
+          19.0715,
+          72.8501
+        ],
+        [
+          19.0548,
+          72.8473
+        ]
+      ],
+      "alternateRoutes": [
+        {
+          "name": "SV Road + Linking Road Parallel",
+          "addedDistanceKm": 1.6,
+          "estimatedMin": 26,
+          "congestionPct": 58
+        },
+        {
+          "name": "Juhu Tara Coastal Corridor",
+          "addedDistanceKm": 2.8,
+          "estimatedMin": 24,
+          "congestionPct": 49
+        }
+      ],
+      "accidentHotspot": true,
+      "cameraLabel": "CAM-WEH-04 · Vile Parle Flyover",
+      "updatedAt": "2026-11-14T11:41:49.757Z",
+      "isSimulated": true
+    },
+    {
+      "id": "trf-bwsl",
+      "name": "Bandra-Worli Sea Link Corridor",
+      "shortName": "Sea Link",
+      "ward": "H-West / G-South",
+      "lengthKm": 5.6,
+      "lanes": 8,
+      "currentDensity": 86,
+      "congestionPct": 36,
+      "avgSpeedKmph": 54,
+      "expectedTravelMin": 7,
+      "freeFlowTravelMin": 6,
+      "status": "Smooth",
+      "coordinates": [
+        [
+          19.0468,
+          72.8205
+        ],
+        [
+          19.0365,
+          72.8168
+        ],
+        [
+          19.0235,
+          72.8152
+        ],
+        [
+          19.0112,
+          72.8161
+        ]
+      ],
+      "alternateRoutes": [
+        {
+          "name": "Mahim Causeway – Annie Besant Rd",
+          "addedDistanceKm": 1.9,
+          "estimatedMin": 18,
+          "congestionPct": 67
+        }
+      ],
+      "accidentHotspot": false,
+      "cameraLabel": "CAM-BWSL-01 · North Pylon Plaza",
+      "updatedAt": "2026-11-14T11:42:49.757Z",
+      "isSimulated": true
+    },
+    {
+      "id": "trf-eeh",
+      "name": "Eastern Express Highway (Ghatkopar – Sion)",
+      "shortName": "EEH Corridor",
+      "ward": "N-Ward / F-North",
+      "lengthKm": 10.2,
+      "lanes": 6,
+      "currentDensity": 138,
+      "congestionPct": 68,
+      "avgSpeedKmph": 24,
+      "expectedTravelMin": 26,
+      "freeFlowTravelMin": 12,
+      "status": "Heavy",
+      "coordinates": [
+        [
+          19.0886,
+          72.9098
+        ],
+        [
+          19.0734,
+          72.8981
+        ],
+        [
+          19.0562,
+          72.8834
+        ],
+        [
+          19.0419,
+          72.8669
+        ]
+      ],
+      "alternateRoutes": [
+        {
+          "name": "Eastern Freeway via Chembur Connector",
+          "addedDistanceKm": 2.3,
+          "estimatedMin": 16,
+          "congestionPct": 38
+        },
+        {
+          "name": "LBS Marg Internal Arterial",
+          "addedDistanceKm": 1.1,
+          "estimatedMin": 29,
+          "congestionPct": 74
+        }
+      ],
+      "accidentHotspot": true,
+      "cameraLabel": "CAM-EEH-08 · Chheda Nagar Junction",
+      "updatedAt": "2026-11-14T11:40:49.757Z",
+      "isSimulated": true
+    },
+    {
+      "id": "trf-bkc",
+      "name": "BKC Financial District Spine (G-Block – Kalanagar)",
+      "shortName": "BKC Spine",
+      "ward": "H-East (BKC)",
+      "lengthKm": 4.1,
+      "lanes": 4,
+      "currentDensity": 112,
+      "congestionPct": 76,
+      "avgSpeedKmph": 17,
+      "expectedTravelMin": 15,
+      "freeFlowTravelMin": 6,
+      "status": "Heavy",
+      "coordinates": [
+        [
+          19.0695,
+          72.8742
+        ],
+        [
+          19.0653,
+          72.8681
+        ],
+        [
+          19.0604,
+          72.8588
+        ],
+        [
+          19.0568,
+          72.8489
+        ]
+      ],
+      "alternateRoutes": [
+        {
+          "name": "Santacruz-Chembur Link Road (SCLR)",
+          "addedDistanceKm": 1.8,
+          "estimatedMin": 11,
+          "congestionPct": 48
+        }
+      ],
+      "accidentHotspot": false,
+      "cameraLabel": "CAM-BKC-02 · MMRDA Grounds Gate",
+      "updatedAt": "2026-11-14T11:39:49.757Z",
+      "isSimulated": true
+    },
+    {
+      "id": "trf-marine",
+      "name": "Marine Drive Coastal Boulevard",
+      "shortName": "Marine Drive",
+      "ward": "A-Ward / C-Ward",
+      "lengthKm": 3.6,
+      "lanes": 6,
+      "currentDensity": 68,
+      "congestionPct": 31,
+      "avgSpeedKmph": 46,
+      "expectedTravelMin": 5,
+      "freeFlowTravelMin": 4,
+      "status": "Smooth",
+      "coordinates": [
+        [
+          18.9267,
+          72.8213
+        ],
+        [
+          18.9369,
+          72.8235
+        ],
+        [
+          18.9472,
+          72.8224
+        ],
+        [
+          18.9548,
+          72.8152
+        ]
+      ],
+      "alternateRoutes": [
+        {
+          "name": "Maharshi Karve Road",
+          "addedDistanceKm": 0.5,
+          "estimatedMin": 9,
+          "congestionPct": 52
+        }
+      ],
+      "accidentHotspot": false,
+      "cameraLabel": "CAM-MRN-03 · Air India Bend",
+      "updatedAt": "2026-11-14T11:40:49.757Z",
+      "isSimulated": true
+    }
+  ],
+  "environmentStations": [
+    {
+      "id": "env-bkc",
+      "stationName": "Bandra Kurla Complex (BKC)",
+      "ward": "H-East (BKC)",
+      "lat": 19.0653,
+      "lng": 72.8681,
+      "aqi": 68,
+      "category": "Satisfactory",
+      "pm25": 41,
+      "pm10": 72,
+      "no2": 28,
+      "co2": 418,
+      "o3": 62,
+      "temperatureC": 29,
+      "humidityPct": 66,
+      "noiseDb": 64,
+      "alertActive": false,
+      "hourlyTrend": [
+        {
+          "hour": "00:00",
+          "aqi": 63,
+          "pm25": 38,
+          "noiseDb": 60
+        },
+        {
+          "hour": "02:00",
+          "aqi": 70,
+          "pm25": 42,
+          "noiseDb": 63
+        },
+        {
+          "hour": "04:00",
+          "aqi": 75,
+          "pm25": 46,
+          "noiseDb": 66
+        },
+        {
+          "hour": "06:00",
+          "aqi": 77,
+          "pm25": 47,
+          "noiseDb": 60
+        },
+        {
+          "hour": "08:00",
+          "aqi": 91,
+          "pm25": 56,
+          "noiseDb": 77
+        },
+        {
+          "hour": "10:00",
+          "aqi": 87,
+          "pm25": 53,
+          "noiseDb": 80
+        },
+        {
+          "hour": "12:00",
+          "aqi": 80,
+          "pm25": 49,
+          "noiseDb": 74
+        },
+        {
+          "hour": "14:00",
+          "aqi": 73,
+          "pm25": 44,
+          "noiseDb": 77
+        },
+        {
+          "hour": "16:00",
+          "aqi": 67,
+          "pm25": 41,
+          "noiseDb": 80
+        },
+        {
+          "hour": "18:00",
+          "aqi": 65,
+          "pm25": 39,
+          "noiseDb": 74
+        },
+        {
+          "hour": "20:00",
+          "aqi": 50,
+          "pm25": 29,
+          "noiseDb": 77
+        },
+        {
+          "hour": "22:00",
+          "aqi": 55,
+          "pm25": 32,
+          "noiseDb": 66
+        }
+      ],
+      "updatedAt": "2026-11-14T11:37:49.757Z",
+      "isSimulated": true
+    },
+    {
+      "id": "env-chembur",
+      "stationName": "Chembur RCF Monitoring Node",
+      "ward": "M-West (Chembur)",
+      "lat": 19.0522,
+      "lng": 72.9005,
+      "aqi": 158,
+      "category": "Moderate",
+      "pm25": 89,
+      "pm10": 142,
+      "no2": 46,
+      "co2": 462,
+      "o3": 78,
+      "temperatureC": 31,
+      "humidityPct": 61,
+      "noiseDb": 74,
+      "alertActive": true,
+      "hourlyTrend": [
+        {
+          "hour": "00:00",
+          "aqi": 153,
+          "pm25": 86,
+          "noiseDb": 60
+        },
+        {
+          "hour": "02:00",
+          "aqi": 160,
+          "pm25": 90,
+          "noiseDb": 63
+        },
+        {
+          "hour": "04:00",
+          "aqi": 165,
+          "pm25": 94,
+          "noiseDb": 66
+        },
+        {
+          "hour": "06:00",
+          "aqi": 167,
+          "pm25": 95,
+          "noiseDb": 60
+        },
+        {
+          "hour": "08:00",
+          "aqi": 181,
+          "pm25": 104,
+          "noiseDb": 77
+        },
+        {
+          "hour": "10:00",
+          "aqi": 177,
+          "pm25": 101,
+          "noiseDb": 80
+        },
+        {
+          "hour": "12:00",
+          "aqi": 170,
+          "pm25": 97,
+          "noiseDb": 74
+        },
+        {
+          "hour": "14:00",
+          "aqi": 163,
+          "pm25": 92,
+          "noiseDb": 77
+        },
+        {
+          "hour": "16:00",
+          "aqi": 157,
+          "pm25": 89,
+          "noiseDb": 80
+        },
+        {
+          "hour": "18:00",
+          "aqi": 155,
+          "pm25": 87,
+          "noiseDb": 74
+        },
+        {
+          "hour": "20:00",
+          "aqi": 140,
+          "pm25": 77,
+          "noiseDb": 77
+        },
+        {
+          "hour": "22:00",
+          "aqi": 145,
+          "pm25": 80,
+          "noiseDb": 66
+        }
+      ],
+      "updatedAt": "2026-11-14T11:39:49.757Z",
+      "isSimulated": true
+    },
+    {
+      "id": "env-andheri",
+      "stationName": "Andheri East Chakala Station",
+      "ward": "K-East (Andheri E)",
+      "lat": 19.1136,
+      "lng": 72.8697,
+      "aqi": 118,
+      "category": "Moderate",
+      "pm25": 66,
+      "pm10": 112,
+      "no2": 39,
+      "co2": 444,
+      "o3": 69,
+      "temperatureC": 30,
+      "humidityPct": 64,
+      "noiseDb": 76,
+      "alertActive": false,
+      "hourlyTrend": [
+        {
+          "hour": "00:00",
+          "aqi": 113,
+          "pm25": 63,
+          "noiseDb": 60
+        },
+        {
+          "hour": "02:00",
+          "aqi": 120,
+          "pm25": 67,
+          "noiseDb": 63
+        },
+        {
+          "hour": "04:00",
+          "aqi": 125,
+          "pm25": 71,
+          "noiseDb": 66
+        },
+        {
+          "hour": "06:00",
+          "aqi": 127,
+          "pm25": 72,
+          "noiseDb": 60
+        },
+        {
+          "hour": "08:00",
+          "aqi": 141,
+          "pm25": 81,
+          "noiseDb": 77
+        },
+        {
+          "hour": "10:00",
+          "aqi": 137,
+          "pm25": 78,
+          "noiseDb": 80
+        },
+        {
+          "hour": "12:00",
+          "aqi": 130,
+          "pm25": 74,
+          "noiseDb": 74
+        },
+        {
+          "hour": "14:00",
+          "aqi": 123,
+          "pm25": 69,
+          "noiseDb": 77
+        },
+        {
+          "hour": "16:00",
+          "aqi": 117,
+          "pm25": 66,
+          "noiseDb": 80
+        },
+        {
+          "hour": "18:00",
+          "aqi": 115,
+          "pm25": 64,
+          "noiseDb": 74
+        },
+        {
+          "hour": "20:00",
+          "aqi": 100,
+          "pm25": 54,
+          "noiseDb": 77
+        },
+        {
+          "hour": "22:00",
+          "aqi": 105,
+          "pm25": 57,
+          "noiseDb": 66
+        }
+      ],
+      "updatedAt": "2026-11-14T11:36:49.757Z",
+      "isSimulated": true
+    },
+    {
+      "id": "env-worli",
+      "stationName": "Worli Sea Face Coastal Node",
+      "ward": "G-South (Worli)",
+      "lat": 19.0076,
+      "lng": 72.8152,
+      "aqi": 54,
+      "category": "Satisfactory",
+      "pm25": 29,
+      "pm10": 56,
+      "no2": 21,
+      "co2": 405,
+      "o3": 51,
+      "temperatureC": 28,
+      "humidityPct": 72,
+      "noiseDb": 59,
+      "alertActive": false,
+      "hourlyTrend": [
+        {
+          "hour": "00:00",
+          "aqi": 49,
+          "pm25": 26,
+          "noiseDb": 60
+        },
+        {
+          "hour": "02:00",
+          "aqi": 56,
+          "pm25": 30,
+          "noiseDb": 63
+        },
+        {
+          "hour": "04:00",
+          "aqi": 61,
+          "pm25": 34,
+          "noiseDb": 66
+        },
+        {
+          "hour": "06:00",
+          "aqi": 63,
+          "pm25": 35,
+          "noiseDb": 60
+        },
+        {
+          "hour": "08:00",
+          "aqi": 77,
+          "pm25": 44,
+          "noiseDb": 77
+        },
+        {
+          "hour": "10:00",
+          "aqi": 73,
+          "pm25": 41,
+          "noiseDb": 80
+        },
+        {
+          "hour": "12:00",
+          "aqi": 66,
+          "pm25": 37,
+          "noiseDb": 74
+        },
+        {
+          "hour": "14:00",
+          "aqi": 59,
+          "pm25": 32,
+          "noiseDb": 77
+        },
+        {
+          "hour": "16:00",
+          "aqi": 53,
+          "pm25": 29,
+          "noiseDb": 80
+        },
+        {
+          "hour": "18:00",
+          "aqi": 51,
+          "pm25": 27,
+          "noiseDb": 74
+        },
+        {
+          "hour": "20:00",
+          "aqi": 36,
+          "pm25": 17,
+          "noiseDb": 77
+        },
+        {
+          "hour": "22:00",
+          "aqi": 41,
+          "pm25": 20,
+          "noiseDb": 66
+        }
+      ],
+      "updatedAt": "2026-11-14T11:38:49.758Z",
+      "isSimulated": true
+    },
+    {
+      "id": "env-powai",
+      "stationName": "Powai Lake Green Zone",
+      "ward": "S-Ward (Powai)",
+      "lat": 19.1268,
+      "lng": 72.9061,
+      "aqi": 62,
+      "category": "Satisfactory",
+      "pm25": 34,
+      "pm10": 61,
+      "no2": 24,
+      "co2": 412,
+      "o3": 55,
+      "temperatureC": 28,
+      "humidityPct": 68,
+      "noiseDb": 57,
+      "alertActive": false,
+      "hourlyTrend": [
+        {
+          "hour": "00:00",
+          "aqi": 57,
+          "pm25": 31,
+          "noiseDb": 60
+        },
+        {
+          "hour": "02:00",
+          "aqi": 64,
+          "pm25": 35,
+          "noiseDb": 63
+        },
+        {
+          "hour": "04:00",
+          "aqi": 69,
+          "pm25": 39,
+          "noiseDb": 66
+        },
+        {
+          "hour": "06:00",
+          "aqi": 71,
+          "pm25": 40,
+          "noiseDb": 60
+        },
+        {
+          "hour": "08:00",
+          "aqi": 85,
+          "pm25": 49,
+          "noiseDb": 77
+        },
+        {
+          "hour": "10:00",
+          "aqi": 81,
+          "pm25": 46,
+          "noiseDb": 80
+        },
+        {
+          "hour": "12:00",
+          "aqi": 74,
+          "pm25": 42,
+          "noiseDb": 74
+        },
+        {
+          "hour": "14:00",
+          "aqi": 67,
+          "pm25": 37,
+          "noiseDb": 77
+        },
+        {
+          "hour": "16:00",
+          "aqi": 61,
+          "pm25": 34,
+          "noiseDb": 80
+        },
+        {
+          "hour": "18:00",
+          "aqi": 59,
+          "pm25": 32,
+          "noiseDb": 74
+        },
+        {
+          "hour": "20:00",
+          "aqi": 44,
+          "pm25": 22,
+          "noiseDb": 77
+        },
+        {
+          "hour": "22:00",
+          "aqi": 49,
+          "pm25": 25,
+          "noiseDb": 66
+        }
+      ],
+      "updatedAt": "2026-11-14T11:35:49.758Z",
+      "isSimulated": true
+    },
+    {
+      "id": "env-colaba",
+      "stationName": "Colaba Observatory Station",
+      "ward": "A-Ward (Colaba)",
+      "lat": 18.9067,
+      "lng": 72.8147,
+      "aqi": 47,
+      "category": "Good",
+      "pm25": 24,
+      "pm10": 48,
+      "no2": 18,
+      "co2": 398,
+      "o3": 46,
+      "temperatureC": 28,
+      "humidityPct": 75,
+      "noiseDb": 55,
+      "alertActive": false,
+      "hourlyTrend": [
+        {
+          "hour": "00:00",
+          "aqi": 42,
+          "pm25": 21,
+          "noiseDb": 60
+        },
+        {
+          "hour": "02:00",
+          "aqi": 49,
+          "pm25": 25,
+          "noiseDb": 63
+        },
+        {
+          "hour": "04:00",
+          "aqi": 54,
+          "pm25": 29,
+          "noiseDb": 66
+        },
+        {
+          "hour": "06:00",
+          "aqi": 56,
+          "pm25": 30,
+          "noiseDb": 60
+        },
+        {
+          "hour": "08:00",
+          "aqi": 70,
+          "pm25": 39,
+          "noiseDb": 77
+        },
+        {
+          "hour": "10:00",
+          "aqi": 66,
+          "pm25": 36,
+          "noiseDb": 80
+        },
+        {
+          "hour": "12:00",
+          "aqi": 59,
+          "pm25": 32,
+          "noiseDb": 74
+        },
+        {
+          "hour": "14:00",
+          "aqi": 52,
+          "pm25": 27,
+          "noiseDb": 77
+        },
+        {
+          "hour": "16:00",
+          "aqi": 46,
+          "pm25": 24,
+          "noiseDb": 80
+        },
+        {
+          "hour": "18:00",
+          "aqi": 44,
+          "pm25": 22,
+          "noiseDb": 74
+        },
+        {
+          "hour": "20:00",
+          "aqi": 29,
+          "pm25": 12,
+          "noiseDb": 77
+        },
+        {
+          "hour": "22:00",
+          "aqi": 34,
+          "pm25": 15,
+          "noiseDb": 66
+        }
+      ],
+      "updatedAt": "2026-11-14T11:40:49.758Z",
+      "isSimulated": true
+    }
+  ],
+  "infrastructureIssues": [
+    {
+      "id": "inf-1",
+      "code": "INF-2026-108",
+      "imageUrl": "/src/assets/images/pothole_road_sample_1794656029505.jpg",
+      "issueType": "Pothole",
+      "locationName": "Sion - Link Road Intersection",
+      "ward": "F-North (Sion)",
+      "lat": 19.0434,
+      "lng": 72.8617,
+      "boxes": [
+        {
+          "label": "Deep Pothole Crater",
+          "confidence": 97,
+          "ymin": 510,
+          "xmin": 230,
+          "ymax": 840,
+          "xmax": 740,
+          "category": "Pothole"
+        },
+        {
+          "label": "Alligator Pavement Cracks",
+          "confidence": 88,
+          "ymin": 390,
+          "xmin": 180,
+          "ymax": 540,
+          "xmax": 680,
+          "category": "Road Crack"
+        }
+      ],
+      "confidence": 97,
+      "severity": "Critical",
+      "recommendedPriority": "Immediate (24h)",
+      "status": "Reported",
+      "analysisMode": "Demonstration CV Mode",
+      "detectedAt": "2026-11-14T11:00:49.758Z",
+      "isSimulated": true
+    },
+    {
+      "id": "inf-2",
+      "code": "INF-2026-107",
+      "imageUrl": "/src/assets/images/pothole_road_sample_1794656029505.jpg",
+      "issueType": "Road Crack",
+      "locationName": "Adi Shankaracharya Marg, Powai",
+      "ward": "S-Ward (Powai)",
+      "lat": 19.1235,
+      "lng": 72.9059,
+      "boxes": [
+        {
+          "label": "Longitudinal Road Crack",
+          "confidence": 91,
+          "ymin": 480,
+          "xmin": 290,
+          "ymax": 790,
+          "xmax": 690,
+          "category": "Road Crack"
+        }
+      ],
+      "confidence": 91,
+      "severity": "Medium",
+      "recommendedPriority": "Scheduled (7d)",
+      "status": "Task Created",
+      "analysisMode": "Demonstration CV Mode",
+      "detectedAt": "2026-11-14T02:44:49.758Z",
+      "isSimulated": true
+    },
+    {
+      "id": "inf-3",
+      "code": "INF-2026-106",
+      "imageUrl": "/src/assets/images/pothole_road_sample_1794656029505.jpg",
+      "issueType": "Overflowing Drain",
+      "locationName": "Dr. Babasaheb Ambedkar Rd, Hindmata",
+      "ward": "F-South (Dadar)",
+      "lat": 19.0096,
+      "lng": 72.8421,
+      "boxes": [
+        {
+          "label": "Blocked Storm Culvert",
+          "confidence": 93,
+          "ymin": 540,
+          "xmin": 260,
+          "ymax": 820,
+          "xmax": 720,
+          "category": "Overflowing Drain"
+        }
+      ],
+      "confidence": 93,
+      "severity": "High",
+      "recommendedPriority": "High (48h)",
+      "status": "Repair In Progress",
+      "analysisMode": "Demonstration CV Mode",
+      "detectedAt": "2026-11-14T08:44:49.758Z",
+      "isSimulated": true
+    }
+  ],
+  "maintenanceTasks": [
+    {
+      "id": "mt-1",
+      "code": "MNT-2026-309",
+      "issueId": "inf-2",
+      "title": "Cold-mix resurfacing at Adi Shankaracharya Marg",
+      "locationName": "Adi Shankaracharya Marg, Powai",
+      "ward": "S-Ward (Powai)",
+      "assignedCrew": "Resurfacing Crew S-01",
+      "priority": "Medium",
+      "status": "Scheduled",
+      "estimatedCostInr": 42500,
+      "assignedAt": "2026-11-14T05:44:49.758Z"
+    },
+    {
+      "id": "mt-2",
+      "code": "MNT-2026-308",
+      "issueId": "inf-3",
+      "title": "Emergency de-silting & grate clearance at Hindmata",
+      "locationName": "Dr. Babasaheb Ambedkar Rd, Hindmata",
+      "ward": "F-South (Dadar)",
+      "assignedCrew": "De-silting Crew F-03",
+      "priority": "High",
+      "status": "In Progress",
+      "estimatedCostInr": 28000,
+      "assignedAt": "2026-11-14T09:44:49.758Z"
+    }
+  ],
+  "citizenReports": [
+    {
+      "id": "rep-1",
+      "trackingCode": "SC-2026-8841",
+      "citizenId": "usr-citizen-5",
+      "citizenName": "Ananya Sharma",
+      "citizenEmail": "citizen@mumbai.in",
+      "title": "Garbage not collected near Bandra Station West",
+      "description": "Two overflowing municipal waste bins have spilled onto Hill Road service lane since morning.",
+      "category": "Waste",
+      "aiClassifiedCategory": "Waste",
+      "aiPriority": "High",
+      "aiRecommendedDepartment": "Solid Waste Management",
+      "aiConfidence": 95,
+      "ward": "H-West (Bandra W)",
+      "locationName": "Hill Road Service Lane, Bandra West",
+      "lat": 19.0558,
+      "lng": 72.8386,
+      "imageUrl": "/src/assets/images/waste_detection_sample_1794656029090.jpg",
+      "status": "In Progress",
+      "linkedIncidentId": "inc-107",
+      "timeline": [
+        {
+          "status": "Submitted",
+          "note": "Citizen submitted complaint with geotagged photo.",
+          "actor": "Ananya Sharma",
+          "timestamp": "2026-11-14T06:44:49.758Z"
+        },
+        {
+          "status": "Under Review",
+          "note": "AI Triage classified as High Priority Waste issue (95% confidence).",
+          "actor": "SmartCity AI Triage",
+          "timestamp": "2026-11-14T06:50:49.758Z"
+        },
+        {
+          "status": "Assigned",
+          "note": "Routed to Solid Waste Management · Squad H-02.",
+          "actor": "Meera Deshmukh",
+          "timestamp": "2026-11-14T07:32:49.758Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Compactor vehicle MH-02-CV-3309 en route.",
+          "actor": "Vikram Sawant",
+          "timestamp": "2026-11-14T09:44:49.758Z"
+        }
+      ],
+      "createdAt": "2026-11-14T06:44:49.758Z",
+      "updatedAt": "2026-11-14T09:44:49.758Z"
+    },
+    {
+      "id": "rep-2",
+      "trackingCode": "SC-2026-8839",
+      "citizenId": "usr-citizen-5",
+      "citizenName": "Ananya Sharma",
+      "citizenEmail": "citizen@mumbai.in",
+      "title": "Pothole on main Khar Pali road junction",
+      "description": "Large crater forming after water tanker leakage; two-wheelers swerving dangerously.",
+      "category": "Roads",
+      "aiClassifiedCategory": "Infrastructure",
+      "aiPriority": "High",
+      "aiRecommendedDepartment": "Roads & Bridges Maintenance",
+      "aiConfidence": 93,
+      "ward": "H-West (Khar W)",
+      "locationName": "16th Road Junction, Khar West",
+      "lat": 19.0698,
+      "lng": 72.8331,
+      "imageUrl": "/src/assets/images/pothole_road_sample_1794656029505.jpg",
+      "status": "Assigned",
+      "linkedIncidentId": "inc-103",
+      "timeline": [
+        {
+          "status": "Submitted",
+          "note": "Complaint logged via Citizen Portal.",
+          "actor": "Ananya Sharma",
+          "timestamp": "2026-11-14T00:44:49.758Z"
+        },
+        {
+          "status": "Under Review",
+          "note": "AI Triage matched Infrastructure / Roads with High priority.",
+          "actor": "SmartCity AI Triage",
+          "timestamp": "2026-11-14T00:50:49.758Z"
+        },
+        {
+          "status": "Assigned",
+          "note": "Assigned to Roads & Bridges Crew W-02.",
+          "actor": "Rohan Kulkarni",
+          "timestamp": "2026-11-14T03:44:49.758Z"
+        }
+      ],
+      "createdAt": "2026-11-14T00:44:49.758Z",
+      "updatedAt": "2026-11-14T03:44:49.758Z"
+    },
+    {
+      "id": "rep-3",
+      "trackingCode": "SC-2026-8834",
+      "citizenId": "usr-citizen-5",
+      "citizenName": "Rajesh Verma",
+      "citizenEmail": "rajesh.verma@mumbai.in",
+      "title": "Streetlight not working on New Link Road stretch",
+      "description": "Six streetlights have been completely dark since Tuesday night near Infinity Mall crossing.",
+      "category": "Streetlights",
+      "aiClassifiedCategory": "Streetlights",
+      "aiPriority": "Medium",
+      "aiRecommendedDepartment": "Street Lighting & Electrical",
+      "aiConfidence": 97,
+      "ward": "K-West (Andheri W)",
+      "locationName": "New Link Road, Andheri West",
+      "lat": 19.1363,
+      "lng": 72.8277,
+      "status": "In Progress",
+      "linkedIncidentId": "inc-106",
+      "timeline": [
+        {
+          "status": "Submitted",
+          "note": "Citizen submitted lighting outage alert.",
+          "actor": "Rajesh Verma",
+          "timestamp": "2026-11-13T17:44:49.758Z"
+        },
+        {
+          "status": "Assigned",
+          "note": "Dispatched Electrical Van E-11.",
+          "actor": "Meera Deshmukh",
+          "timestamp": "2026-11-13T23:44:49.758Z"
+        },
+        {
+          "status": "In Progress",
+          "note": "Feeder relay replacement underway.",
+          "actor": "Electrical Van E-11",
+          "timestamp": "2026-11-14T07:44:49.758Z"
+        }
+      ],
+      "createdAt": "2026-11-13T17:44:49.758Z",
+      "updatedAt": "2026-11-14T07:44:49.758Z"
+    },
+    {
+      "id": "rep-4",
+      "trackingCode": "SC-2026-8828",
+      "citizenId": "usr-citizen-5",
+      "citizenName": "Ananya Sharma",
+      "citizenEmail": "citizen@mumbai.in",
+      "title": "Water pipeline leakage resolved at Hill Road",
+      "description": "Minor joint leak causing puddle near pedestrian crossing.",
+      "category": "Water",
+      "aiClassifiedCategory": "Water",
+      "aiPriority": "Medium",
+      "aiRecommendedDepartment": "Storm Water Drains",
+      "aiConfidence": 91,
+      "ward": "H-West (Bandra W)",
+      "locationName": "Hill Road Crossing, Bandra West",
+      "lat": 19.0558,
+      "lng": 72.8286,
+      "status": "Resolved",
+      "linkedIncidentId": "inc-108",
+      "timeline": [
+        {
+          "status": "Submitted",
+          "note": "Reported water seepage.",
+          "actor": "Ananya Sharma",
+          "timestamp": "2026-11-13T05:44:49.758Z"
+        },
+        {
+          "status": "Assigned",
+          "note": "Hydraulic Crew W-04 assigned.",
+          "actor": "Meera Deshmukh",
+          "timestamp": "2026-11-13T09:44:49.758Z"
+        },
+        {
+          "status": "Resolved",
+          "note": "Gasket sealed and pressure verified.",
+          "actor": "Hydraulic Crew W-04",
+          "timestamp": "2026-11-14T03:44:49.758Z"
+        }
+      ],
+      "createdAt": "2026-11-13T05:44:49.758Z",
+      "updatedAt": "2026-11-14T03:44:49.758Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "title": "Critical Pothole Hazard Detected",
+      "message": "AI Vision detected a 97% confidence pothole cluster on Sion-Link Road requiring 24h dispatch.",
+      "severity": "Critical",
+      "category": "Infrastructure",
+      "targetModule": "infrastructure",
+      "targetId": "inf-1",
+      "read": false,
+      "createdAt": "2026-11-14T11:00:49.758Z"
+    },
+    {
+      "id": "notif-2",
+      "title": "Chembur AQI Exceeded Threshold",
+      "message": "Station M-West recorded AQI 158 (PM10: 142 µg/m³). Compliance inspection active.",
+      "severity": "High",
+      "category": "Environment",
+      "targetModule": "environment",
+      "targetId": "env-chembur",
+      "read": false,
+      "createdAt": "2026-11-14T09:44:49.758Z"
+    },
+    {
+      "id": "notif-3",
+      "title": "WEH Southbound Severe Congestion",
+      "message": "Density hit 84% at Vile Parle Flyover. Alternate route advisory recommended.",
+      "severity": "Critical",
+      "category": "Traffic",
+      "targetModule": "traffic",
+      "targetId": "trf-weh",
+      "read": false,
+      "createdAt": "2026-11-14T11:25:49.758Z"
+    },
+    {
+      "id": "notif-4",
+      "title": "New High-Priority Citizen Complaint",
+      "message": "Tracking SC-2026-8841 auto-routed to Solid Waste Management in H-West Ward.",
+      "severity": "High",
+      "category": "Citizen Reports",
+      "targetModule": "reports",
+      "targetId": "rep-1",
+      "read": true,
+      "createdAt": "2026-11-14T06:44:49.758Z"
+    }
+  ],
+  "activityLogs": [
+    {
+      "id": "act-e4050819",
+      "actorName": "Aditya Lulla",
+      "actorRole": "Super Admin",
+      "action": "Reset Mumbai Demo Dataset",
+      "module": "Settings & Administration",
+      "details": "Restored initial demonstration seed records.",
+      "timestamp": "2026-11-14T11:44:49.759Z"
+    },
+    {
+      "id": "act-1",
+      "actorName": "SmartCity Vision AI",
+      "actorRole": "AI Pipeline",
+      "action": "Detected Waste Accumulation",
+      "module": "Waste Management",
+      "details": "Flagged 385kg mixed plastic & solid waste at Sahar Road Junction (96% confidence).",
+      "timestamp": "2026-11-14T11:16:49.758Z"
+    },
+    {
+      "id": "act-2",
+      "actorName": "Traffic ML Engine",
+      "actorRole": "Predictive Model",
+      "action": "Congestion Spike Alert",
+      "module": "Traffic Intelligence",
+      "details": "WEH Southbound predicted congestion 84% with 27 min delay vs free flow.",
+      "timestamp": "2026-11-14T11:25:49.758Z"
+    },
+    {
+      "id": "act-3",
+      "actorName": "Vikram Sawant",
+      "actorRole": "Field Officer",
+      "action": "Dispatched Compactor Unit",
+      "module": "Waste Management",
+      "details": "Assigned SWM-TSK-904 (MH-01-CV-4412) to Andheri East K-East Ward.",
+      "timestamp": "2026-11-14T11:29:49.758Z"
+    },
+    {
+      "id": "act-4",
+      "actorName": "Rohan Kulkarni",
+      "actorRole": "Department Officer",
+      "action": "Updated Maintenance Task",
+      "module": "Infrastructure Monitoring",
+      "details": "Crew F-03 began de-silting work at Hindmata Junction (MNT-2026-308).",
+      "timestamp": "2026-11-14T09:44:49.758Z"
+    },
+    {
+      "id": "act-5",
+      "actorName": "Meera Deshmukh",
+      "actorRole": "Municipal Administrator",
+      "action": "Verified Task Completion",
+      "module": "Waste Management",
+      "details": "Closed Bandra Reclamation cleanup task SWM-TSK-901 after photographic verification.",
+      "timestamp": "2026-11-14T06:44:49.758Z"
+    }
+  ],
+  "aiPredictions": [
+    {
+      "id": "pred-1",
+      "type": "Traffic Congestion Forecast",
+      "targetName": "WEH Southbound",
+      "summary": "Evening peak forecast 88% congestion between 18:00–20:00 IST.",
+      "confidence": 93,
+      "createdAt": "2026-11-14T11:24:49.758Z"
+    },
+    {
+      "id": "pred-2",
+      "type": "Air Quality Forecast",
+      "targetName": "Chembur RCF Node",
+      "summary": "Elevated particulate dispersion expected until coastal breeze shift at 21:00 IST.",
+      "confidence": 89,
+      "createdAt": "2026-11-14T10:44:49.758Z"
+    }
+  ],
+  "meta": {
+    "city": "Mumbai",
+    "demoMode": true,
+    "lastSeededAt": "2026-11-14T11:44:49.758Z"
+  }
+}
